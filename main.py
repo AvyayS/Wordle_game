@@ -3,8 +3,7 @@ import math
 
 with open("wordlelist.txt", "r") as somefile:
   random_words = somefile.read().split()
-  #random_words = content.split()
-
+  
 def start(enter):
   enter = input("Welcome to WORLDLE (type START to play!): ")
   if enter.lower() == "start":
